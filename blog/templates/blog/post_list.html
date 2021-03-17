@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <h1>Welcome to my site</h1>
-</head>
 <body>
+    <header>
+        <h1><a href="/">Django Girls Blog</a></h1>
+    </header>
+    
     {% for post in posts %}
         <article>
             <time>published: {{ post.published_date }}</time>
